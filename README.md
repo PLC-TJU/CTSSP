@@ -59,6 +59,7 @@ We express our gratitude to the open-source community, which facilitates the bro
 
 - [<img src="https://img.shields.io/badge/GitHub-MOABB-b31b1b"></img>](https://github.com/NeuroTechX/moabb) An open science project aimed at establishing a comprehensive benchmark for BCI algorithms using widely available EEG datasets.
 - [<img src="https://img.shields.io/badge/GitHub-NeuroDeckit-b31b1b"></img>](https://github.com/PLC-TJU/NeuroDeckit) A Python toolbox for EEG signal processing and BCI applications. It includes various preprocessing methods, feature extraction techniques, and classification algorithms.
+- [<img src="https://img.shields.io/badge/GitHub-SBLEST-b31b1b"></img>](https://github.com/EEGdecoding/Code-SBLEST) Sparse Bayesian Learning for End-to-End Spatio-Temporal-Filtering-Based Single-Trial EEG Classification.
 - [<img src="https://img.shields.io/badge/GitHub-Braindecode-b31b1b"></img>](https://github.com/braindecode/braindecode) Contains several deep learning models such as EEGNet, ShallowConvNet, and DeepConvNet, designed specifically for EEG signal classification. Braindecode aims to provide an easy-to-use deep learning toolbox.
 - [<img src="https://img.shields.io/badge/GitHub-CSPNet-b31b1b"></img>](https://github.com/GeometricBCI/Tensor-CSPNet-and-Graph-CSPNet) Contains Tensor-CSPNet and Graph-CSPNet, two deep learning models for MI-EEG signal classification.
 - [<img src="https://img.shields.io/badge/GitHub-LMDANet-b31b1b"></img>](https://github.com/MiaoZhengQing/LMDA-Code) A deep learning-based network for EEG signal classification. LMDA-Net combines various advanced neural network architectures to enhance classification accuracy.
@@ -83,7 +84,7 @@ We used the following public datasets:
 If you use this code, please cite:
 
 ```
-@article{pan2024ctss,
+@article{pan2025ctssp,
   title={Common Temporal-Spectral-Spatial Patterns for Motor Imagery EEG Decoding}, 
   author={Lincong, Pan and Kun, Wang and Minpeng, Xu and Dong, Ming},
   booktitle={...},

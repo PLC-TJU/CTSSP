@@ -7,14 +7,14 @@
 ## Table of Contents
 
 - [Introduction](#introduction)
-- [Project Structure](#project-structure)
-- [Installation & Setup](#installation--setup)
-- [Quick Start](#quick-start)
-- [Related Research Resources](#related-research-resources)
-- [Data Availability](#data-availability)
-- [Citation](#citation)
+- [Project Structure](#-project-structure)
+- [Installation & Setup](#-installation--setup)
+- [Quick Start](#-quick-start)
+- [Related Research Resources](#-related-research-resources)
+- [Data Availability](#-data-availability)
+- [Citation](#-citation)
+- [Contact](#-contact)
 - [License and Attribution](#license-and-attribution)
-- [Contact](#contact)
 
 ## Introduction
 
@@ -41,7 +41,7 @@ CTSSP/
 
 ```
 
-## ⚙️ Installation & Setup
+## 🔧 Installation & Setup
 
 To install and run the project, please follow these steps:
 
@@ -75,7 +75,7 @@ python main_within_subject_parallel.py
 python main_cross_session_parallel.py 
 ```
 
-## 🤝 Related Research Resources
+## 📚 Related Research Resources
 
 We express our gratitude to the open-source community, which facilitates the broader dissemination of research by other researchers and ourselves. The coding style in this repository is relatively rough. We welcome anyone to refactor it to make it more efficient. Our model codebase is largely based on the following repositories:
 
@@ -118,13 +118,12 @@ If you use this code, please cite:
 }
 ```
 
-## License and Attribution
-
-© 2024 Lincong Pan. MIT License.
-
-Please refer to the [LICENSE](./LICENSE) file for details on the licensing of our code.
-
-## Contact
+## 🤝 Contact
 
 If you have any questions or concerns, please contact us at:  
  - Email: panlincong@tju.edu.cn
+
+## License and Attribution
+
+© 2024 Lincong Pan. MIT License.  
+Please refer to the [LICENSE](./LICENSE) file for details on the licensing of our code.

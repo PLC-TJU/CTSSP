@@ -93,6 +93,7 @@ If you use this code, please cite:
 
 ## License and Attribution
 
-© 2024 Lc.Pan. MIT License.
+© 2024 Lincong Pan. MIT License.
+
 Please refer to the [LICENSE](./LICENSE) file for details on the licensing of our code.
 

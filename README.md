@@ -7,8 +7,18 @@
 ## Introduction
 
 **CTSSP** 
-Official implementation of the CTSSP algorithm for motor imagery EEG decoding.  
-**Key Features**: Brain-computer interface (BCI), motor imagery (MI), electroencephalography (EEG), Joint temporal-spectral-spatial optimization and cross-session.
+
+The Common Temporal-Spectral-Spatial Patterns (CTSSP) algorithm is a unified framework for decoding motor imagery (MI) EEG signals by jointly optimizing temporal, spectral, and spatial feature extraction. It addresses key challenges in MI-BCI, including signal non-stationarity and cross-session variability, through three core innovations:
+
+* Multi-Scale Temporal Modeling: Overlapping time windows capture dynamic neural transitions (e.g., ERD/ERS evolution) during motor imagery.
+
+* Adaptive Spectral Filtering: Finite impulse response ([FIR](https://en.wikipedia.org/wiki/Finite_impulse_response)) filters suppress noise (e.g., EMG/EOG artifacts) while amplifying task-relevant rhythms (8–30 Hz mu/beta bands).
+
+* Low-Rank Spatial Projection: Regularized spatial filters compress redundant features to mitigate overfitting and enhance generalization.
+
+CTSSP achieves state-of-the-art classification accuracy while maintaining neurophysiological interpretability, as validated by its alignment with motor cortex activation patterns. Its robustness to parameter variations makes it suitable for real-world BCI applications.
+
+**Key Features**: Brain-computer interface ([BCI](https://en.wikipedia.org/wiki/Brain%E2%80%93computer_interface)), motor imagery ([MI](https://en.wikipedia.org/wiki/Motor_imagery)), electroencephalography ([EEG](https://en.wikipedia.org/wiki/Electroencephalography)), Joint temporal-spectral-spatial optimization and cross-session.
 
 ## 📁 Project Structure
 ```plaintext

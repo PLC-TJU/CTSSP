@@ -1,6 +1,7 @@
 # Common Temporal-Spectral-Spatial Patterns (CTSSP)
 [![License](https://img.shields.io/badge/License-MIT-blue.svg)](https://opensource.org/licenses/MIT)
-[![Python 3.8+](https://img.shields.io/badge/Python-3.10%2B-green.svg)](https://www.python.org/)
+[![Python](https://img.shields.io/badge/Python-3.10%2B-green.svg)](https://www.python.org/)    
+[![GitHub](https://img.shields.io/badge/GitHub-NeuroDecKit-red.svg)](https://github.com/PLC-TJU/NeuroDeckit)  
 
 ## Introduction
 

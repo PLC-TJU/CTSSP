@@ -9,7 +9,7 @@ from neurodeckit.loaddata import Dataset_Left_Right_MI, Dataset_MI
 from neurodeckit.machine_learning import FBCSP
 from neurodeckit import DL_Classifier
 from neurodeckit.machine_learning.rpa import RCT
-from ctssp2 import CTSSP, TRCTSSP, SBL_CTSSP
+from ctssp import CTSSP, TRCTSSP, SBL_CTSSP
 from joblib import Memory
 from joblib import Parallel, delayed, parallel_backend
 import multiprocessing as mp

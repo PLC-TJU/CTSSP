@@ -4,6 +4,18 @@
 [![Python](https://img.shields.io/badge/Python-3.10%2B-green.svg)](https://www.python.org/)
 [![GitHub](https://img.shields.io/badge/GitHub-NeuroDecKit-red.svg)](https://github.com/PLC-TJU/NeuroDeckit)
 
+## Table of Contents
+
+- [Introduction](#introduction)
+- [Project Structure](#project-structure)
+- [Installation & Setup](#installation--setup)
+- [Quick Start](#quick-start)
+- [Related Research Resources](#related-research-resources)
+- [Data Availability](#data-availability)
+- [Citation](#citation)
+- [License and Attribution](#license-and-attribution)
+- [Contact](#contact)
+
 ## Introduction
 
 **CTSSP** 
@@ -112,3 +124,7 @@ If you use this code, please cite:
 
 Please refer to the [LICENSE](./LICENSE) file for details on the licensing of our code.
 
+## Contact
+
+If you have any questions or concerns, please contact us at:  
+ - Email: panlincong@tju.edu.cn

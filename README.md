@@ -1,7 +1,8 @@
 # Common Temporal-Spectral-Spatial Patterns (CTSSP)
+
 [![License](https://img.shields.io/badge/License-MIT-blue.svg)](https://opensource.org/licenses/MIT)
-[![Python](https://img.shields.io/badge/Python-3.10%2B-green.svg)](https://www.python.org/)    
-[![GitHub](https://img.shields.io/badge/GitHub-NeuroDecKit-red.svg)](https://github.com/PLC-TJU/NeuroDeckit)  
+[![Python](https://img.shields.io/badge/Python-3.10%2B-green.svg)](https://www.python.org/)
+[![GitHub](https://img.shields.io/badge/GitHub-NeuroDecKit-red.svg)](https://github.com/PLC-TJU/NeuroDeckit)
 
 ## Introduction
 
@@ -87,8 +88,11 @@ If you use this code, please cite:
 @article{pan2025ctssp,
   title={Common Temporal-Spectral-Spatial Patterns for Motor Imagery EEG Decoding}, 
   author={Lincong, Pan and Kun, Wang and Minpeng, Xu and Dong, Ming},
-  booktitle={...},
-  year={2025}
+  journal={...},
+  year={2025},
+  volume={...},
+  pages={...},
+  doi={...},
 }
 ```
 

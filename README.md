@@ -104,8 +104,8 @@ We used the following public datasets:
 
 
 ## 📜 Citation
-If you use this code, please cite:
-
+If you use this code, please cite:  
+(**under review**)
 ```
 @article{pan2025ctssp,
   title={Common Temporal-Spectral-Spatial Patterns for Motor Imagery EEG Decoding}, 

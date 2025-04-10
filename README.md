@@ -108,7 +108,7 @@ If you use this code, please cite:
 (**Preprint**)
 ```
 @article{pan2025ctssp,
-  title={Common Temporal-Spectral-Spatial Patterns for Motor Imagery EEG Decoding}, 
+  title={CTSSP: A Temporal-Spectral-Spatio Joint Optimization Algorithm for Motor Imagery EEG Decoding}, 
   author={Lincong, Pan and Kun, Wang and  Weibo, Yi and  Yang, Zhang and Minpeng, Xu and Dong, Ming},
   journal={TechRxiv},
   year={2025},

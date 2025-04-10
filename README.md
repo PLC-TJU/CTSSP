@@ -105,16 +105,18 @@ We used the following public datasets:
 
 ## 📜 Citation
 If you use this code, please cite:  
-(**under review**)
+(**Preprint**)
 ```
 @article{pan2025ctssp,
   title={Common Temporal-Spectral-Spatial Patterns for Motor Imagery EEG Decoding}, 
-  author={Lincong, Pan and Kun, Wang and Minpeng, Xu and Dong, Ming},
-  journal={...},
+  author={Lincong, Pan and Kun, Wang and  Weibo, Yi and  Yang, Zhang and Minpeng, Xu and Dong, Ming},
+  journal={TechRxiv},
   year={2025},
+  month={April},
+  day={10},
   volume={...},
   pages={...},
-  doi={...},
+  doi={10.36227/techrxiv.174431208.89304915/v1},
 }
 ```
 

@@ -2,7 +2,6 @@
 
 [![License](https://img.shields.io/badge/License-MIT-blue.svg)](https://opensource.org/licenses/MIT)
 [![Python](https://img.shields.io/badge/Python-3.10%2B-green.svg)](https://www.python.org/)
-[![GitHub](https://img.shields.io/badge/GitHub-NeuroDecKit-red.svg)](https://github.com/PLC-TJU/NeuroDeckit)
 
 ## Table of Contents
 
@@ -14,7 +13,7 @@
 - [Data Availability](#-data-availability)
 - [Citation](#-citation)
 - [Contact](#-contact)
-- [License and Attribution](#license-and-attribution)
+- [License and Attribution](#-license-and-attribution)
 
 ## Introduction
 
@@ -125,7 +124,7 @@ If you use this code, please cite:
 If you have any questions or concerns, please contact us at:  
  - Email: panlincong@tju.edu.cn
 
-## License and Attribution
+## 📝 License and Attribution
 
 © 2024 Lincong Pan. MIT License.  
 Please refer to the [LICENSE](./LICENSE) file for details on the licensing of our code.

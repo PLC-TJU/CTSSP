@@ -105,7 +105,7 @@ We used the following public datasets:
 ## 📜 Citation
 If you use this code, please cite:  
 (**Preprint**)
-```
+```bibtex
 @article{pan2025ctssp,
   title={CTSSP: A Temporal-Spectral-Spatio Joint Optimization Algorithm for Motor Imagery EEG Decoding}, 
   author={Lincong, Pan and Kun, Wang and  Weibo, Yi and  Yang, Zhang and Minpeng, Xu and Dong, Ming},

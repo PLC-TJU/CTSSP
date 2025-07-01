@@ -2,6 +2,7 @@
 
 [![License](https://img.shields.io/badge/License-MIT-blue.svg)](https://opensource.org/licenses/MIT)
 [![Python](https://img.shields.io/badge/Python-3.10%2B-green.svg)](https://www.python.org/)
+[![MATLAB](https://img.shields.io/badge/MATLAB-R2020b%2B-orange.svg)](https://www.mathworks.com/products/matlab.html)
 
 ## Table of Contents
 
@@ -21,11 +22,11 @@
 
 The Common Temporal-Spectral-Spatial Patterns (CTSSP) algorithm is a unified framework for decoding motor imagery (MI) EEG signals by jointly optimizing temporal, spectral, and spatial feature extraction. It addresses key challenges in MI-BCI, including signal non-stationarity and cross-session variability, through three core innovations:
 
-* Multi-Scale Temporal Modeling: Overlapping time windows capture dynamic neural transitions (e.g., ERD/ERS evolution) during motor imagery.
+- **Multi-Scale Temporal Modeling**: Overlapping time windows capture dynamic neural transitions (e.g., ERD/ERS evolution) during motor imagery.
 
-* Adaptive Spectral Filtering: Finite impulse response ([FIR](https://en.wikipedia.org/wiki/Finite_impulse_response)) filters suppress noise (e.g., EMG/EOG artifacts) while amplifying task-relevant rhythms (8–30 Hz mu/beta bands).
+- **Adaptive Spectral Filtering**: Finite impulse response ([FIR](https://en.wikipedia.org/wiki/Finite_impulse_response)) filters suppress noise (e.g., EMG/EOG artifacts) while amplifying task-relevant rhythms (8–30 Hz mu/beta bands).
 
-* Low-Rank Spatial Projection: Regularized spatial filters compress redundant features to mitigate overfitting and enhance generalization.
+- **Low-Rank Spatial Projection**: Regularized spatial filters compress redundant features to mitigate overfitting and enhance generalization.
 
 CTSSP achieves state-of-the-art classification accuracy while maintaining neurophysiological interpretability, as validated by its alignment with motor cortex activation patterns. Its robustness to parameter variations makes it suitable for real-world BCI applications.
 
@@ -34,6 +35,9 @@ CTSSP achieves state-of-the-art classification accuracy while maintaining neurop
 ## 📁 Project Structure
 ```plaintext
 CTSSP/
+├── matlab_version/                 # MATLAB implementation
+│   ├── ctssp_modeling.m            # Model training
+│   └── ctssp_classify.m            # Sample classification
 ├── ctssp.py                        # Core CTSSP algorithm implementation
 ├── main_cross_session_parallel.py  # Cross-session classification pipeline (parallelized)
 ├── main_within_subject_parallel.py # Within-subject classification pipeline (parallelized)
@@ -44,6 +48,7 @@ CTSSP/
 
 To install and run the project, please follow these steps:
 
+### Python Version
 1. Clone the repository locally
 ```bash
 git clone https://github.com/PLC-TJU/CTSSP.git
@@ -60,6 +65,18 @@ pip install -r requirements.txt
 git clone https://github.com/PLC-TJU/NeuroDecKit.git
 cd NeuroDecKit
 python setup.py install
+```
+
+### MATLAB Version
+1. Clone the repository locally
+```bash
+git clone https://github.com/PLC-TJU/CTSSP.git
+cd CTSSP
+```
+
+2. Add `matlab_version` to the MATLAB path
+```matlab
+addpath(genpath('matlab_version'));
 ```
 
 ## 🚀 Quick Start
@@ -104,24 +121,22 @@ We used the following public datasets:
 
 ## 📜 Citation
 If you use this code, please cite:  
-(**Preprint**)
+
 ```bibtex
 @article{pan2025ctssp,
   title={CTSSP: A Temporal-Spectral-Spatio Joint Optimization Algorithm for Motor Imagery EEG Decoding}, 
   author={Lincong, Pan and Kun, Wang and  Weibo, Yi and  Yang, Zhang and Minpeng, Xu and Dong, Ming},
   journal={TechRxiv},
   year={2025},
-  month={April},
-  day={10},
-  volume={...},
-  pages={...},
-  doi={10.36227/techrxiv.174431208.89304915/v1},
+  doi={10.36227/techrxiv.174431208.89304915/v1}
 }
 ```
 
 ## 🤝 Contact
 
 If you have any questions or concerns, please contact us at:  
+ - Authors: Lincong Pan
+ - Institution: Tianjin University
  - Email: panlincong@tju.edu.cn
 
 ## 📝 License and Attribution
